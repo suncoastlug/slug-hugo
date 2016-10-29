@@ -1,32 +1,32 @@
 # Hugo variables
 # 
-baseurl = "https://suncoastlug.org/"
+baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Suncoast Linux Users Group"
-theme = "slug"
+title = "Hugo Bootstrap v4 Blog"
+theme = "hugo-theme-bootstrap4-blog"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
 # optionally override the site's footer with custom copyright text
-copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
+# copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
 #googleAnalytics = "UA-123-45"
 
 [permalinks]
   post = "/:year/:month/:title/"
-  page = "/page/:filename/"
+  page = "/:slug/"
 
 [[menu.sidebar]]
-  name = "Meetup Group"
-  url = "https://www.meetup.com/Suncoast-LUG/"
+  name = "Link 1"
+  url = "https://example.com"
 
 [[menu.sidebar]]
-  name = "Facebook Group"
-  url = "https://www.facebook.com/groups/slug.fl"
+  name = "Link 2"
+  url = "https://example.org"
 
 # Theme variables
 #
 [params]
   # Site author
-  author = "SLUG"
+  author = "Your Name"
 
   # Description/subtitle for homepage (can be Markdown)
   description = "A simple Hugo theme based on the Bootstrap v4 blog example."
@@ -45,7 +45,7 @@ copyright = "Except where otherwise noted, content on this site is licensed unde
 
   [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
-    about = "Promoting Open Source in the Tampa Bay Area since 1997"
+    about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
 
     # How many posts to show on the sidebar (Default: 5)
     #num_recent_posts = 2
@@ -53,7 +53,7 @@ copyright = "Except where otherwise noted, content on this site is licensed unde
   [params.social]
     # Optional, used for attribution in Twitter cards
     # See: https://dev.twitter.com/cards/types/summary-large-image
-    #twitter = "username"
+    twitter = "username"
 
   [params.sharingicons]
     # Hide the sharing icons on posts? (Default: false)
@@ -61,8 +61,8 @@ copyright = "Except where otherwise noted, content on this site is licensed unde
 
     # Optionally, set any of these to false to hide them:
     #facebook = true
-    googleplus = false
-    linkedin = false
+    #googleplus = true
+    #linkedin = true
     #twitter = true
 
 # Default content language for Hugo 0.17's multilingual support (default is "en")
