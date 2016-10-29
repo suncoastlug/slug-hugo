@@ -61,8 +61,8 @@ copyright = "Except where otherwise noted, content on this site is licensed unde
 
     # Optionally, set any of these to false to hide them:
     #facebook = true
-    #googleplus = true
-    #linkedin = true
+    googleplus = false
+    linkedin = false
     #twitter = true
 
 # Default content language for Hugo 0.17's multilingual support (default is "en")
